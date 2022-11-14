@@ -1,0 +1,83 @@
+.header__navbar{
+    display:none;
+}
+
+.header__navbar--dektstop{
+    width: 100%;
+    display: flex;
+}
+
+.header__navbar--dektstop img{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.header__navbar--dektstop div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: end;
+}
+
+.header__navbar--dektstop__itemsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+.header__navbar--dektstop__itemsContainer li{
+    margin-left: 40px;
+    font-size: 1.5em;
+    color: #008ccf;
+}
+
+.header__navbar--dektstop__itemsContainer--3child{
+    margin-right: 40px;
+}
+
+/*Experience*/
+
+.main__section--aboutMe__MyExperienceContainer{
+    display: flex;
+}
+
+.main__section--aboutMe__MyExperience{
+    margin-right: 20px;
+}
+
+.main__section--aboutMe__MyExperience__child{
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__section--aboutMe__MyExperience__child img{
+    width: 150px;
+    height: 150px;
+}
+
+/*Projects*/
+
+.main__section--proyects__proyectContainer{
+    display: flex; 
+}
+
+.main__section--proyects__proyect{
+    margin-right: 20px;
+}
+
+.main__section--proyects__proyect__child{
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__section--proyects__proyect__child img{
+    width: 150px;
+    height: 150px;
+}
+
+.header__navbar--desplegableContainer{
+    display: none;
+}

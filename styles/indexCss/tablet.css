@@ -1,0 +1,68 @@
+.header__navbar--dektstop{
+    display: none;
+}
+
+.main__section--aboutMe{
+    align-items: center;
+}
+
+.main__section--aboutMe__MyExperience{
+    height: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.main__section--aboutMe__MyExperience__child{
+    display: flex;
+}
+
+.main__section--aboutMe__MyExperience__child img{
+    margin-right: 20px;
+}
+
+/*Projects*/
+
+.main__section--proyects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__section--proyects__proyect{
+    height: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.main__section--proyects__proyect__child{
+    display: flex;
+}
+
+.main__section--proyects__proyect img{
+    margin-right: 20px;
+}
+
+/*Sklils*/
+
+.main__section--skills{
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__presentation{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 70%;
+}
+
+.footer__presentation__textContainer{
+    min-width: 250px;
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/styles/indexCss/estilo.css">
+    <link rel="stylesheet" media="(min-width: 430px)" href="/styles/indexCss/tablet.css">
+    <link rel="stylesheet" media="(min-width: 960px)" href="/styles/indexCss/dektstop.css">
+    <title>Web Portfolio</title>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+
+        <nav class="header__navbar" id="headerNavbar">
+
+        <a href="/index.html"><img class="header__navbar--img navbar--img1" src="/assets/letra-g.png"
+        alt="Logo"></a>
+        <img onclick="activarmenu" class="header__navbar--img navbar--img2" id="navigationMenu" src="/assets/menu (1).png" alt="Barra de navegacion">
+
+        </nav>
+
+
+            <!-- Esto es un comentario
+
+        <div class="header__navbar--desplegableContainer">
+
+                <div class="header__navbar--desplegableContainer--SeccionDeArriba">
+
+                    <ul class="container++-redessociales">
+                        <li><a href="https://www.linkedin.com/in/gabriel-leonardo-forero-perea-83644121a/"><img src="/assets/linkedin.png" alt=""></a></li>
+                        <li><a href="https://github.com/Leopoldo983"><img src="/assets/github.png" alt=""></a></li>
+                    </ul>
+                    <img onclick="QuitarMenuLetraX" class="LetraX" src="/assets/Imagen de x.png" alt="Boton para cerrar">
+
+                </div>
+
+                <div class="header__navbar--desplegableContainer--SeccionDeAbajo">
+
+                    <ul class="container--linksPartesDePagina">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                    </ul>
+
+                    <div class="buttonContainer"> 
+                        <button class="header__navbar--desplegableContainer--SeccionDeAbajo--botonContacto">
+                            <a href="#contact">Contact Me</a>
+                        </button>
+                    </div >
+
+                </div>
+        </div>
+
+            </a> -->
+
+
+
+
+        <nav class="header__navbar--dektstop">
+
+            <a href="/index.html">
+                <img class="" src="/assets/letra-g.png" alt="Logo">
+            </a>
+
+            <div>
+                <ul class="header__navbar--dektstop__itemsContainer">
+                    <a href="#contact">
+                        <li>Contact</li>
+                    </a>
+                    <a href="#projects">
+                        <li>Projects</li>
+                    </a>
+                    <a href="/about.html">
+                        <li>About</li>
+                    </a>
+                    <a href="#skills">
+                        <li class="header__navbar--dektstop__itemsContainer--3child">Skills</li>
+                    </a>
+                </ul>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main class="main">
+        <section class="main__section--aboutMe">
+
+            <div class="main__section--aboutMe__presentation">
+                <h1>
+                    Front-end Development
+                </h1>
+                <p>
+                    Hi. I’m Gabriel, a freelance Front-end Developer with 1 years commercial experience creating
+                    successful
+                    websites.
+                </p>
+            </div>
+
+            <div class="main__section--aboutMe__MyExperienceContainer">
+
+                <div class="main__section--aboutMe__MyExperience">
+                    <div class="main__section--aboutMe__MyExperience__child">
+                        <img src="/assets/Sin título.png" alt="">
+                        <div>
+                            <h2>Front-end development</h2>
+                            <p>Responsive websites built for an optimal user experience that achieves your business
+                                goals.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__section--aboutMe__MyExperience">
+                    <div class="main__section--aboutMe__MyExperience__child">
+                        <img src="/assets/herramientas.png" alt="">
+                        <div>
+                            <h2>
+                                Performance, SEO, &
+                                accessibility testing
+                            </h2>
+                            <p>Make your website fast, easy to find, and reach the widest audience possible.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__section--aboutMe__MyExperience">
+                    <div class="main__section--aboutMe__MyExperience__child">
+                        <img src="/assets//tablet.png" alt="">
+                        <div>
+                            <h2>API & Websites</h2>
+                            <p>
+                                Connect your website with an API to manipulate this data dynamically and make your
+                                website a functional application.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+        <section class="main__section--proyects" id="projects">
+
+            <div class="main__section--proyects__ContainerTitle">
+                <h1>PROJECTS</h1>
+            </div>
+
+            <div class="main__section--proyects__proyectContainer">
+
+                <div class="main__section--proyects__proyect">
+                    <div class="main__section--proyects__proyect__child">
+                        <img src="/assets/proceso.png" alt="">
+                        <div>
+                            <a href="/Rick&morty.html">
+                                <h2>Rick and Morty app</h2>
+                            </a>
+                            <p>
+                                Project on the television series Rick and Morty using JavaScript in greater proportion,
+                                making use of the API available on the web to manipulate
+                                dynamically this data and in turn modify the Dom
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__section--proyects__proyect">
+                    <div class="main__section--proyects__proyect__child">
+                        <img src="/assets/Imagen_MOvies.png" alt="">
+                        <div>
+                            <a href="/Movies.html">
+                                <h2>Movie website</h2>
+                            </a>
+                            <p>
+                                Project of movies using JavaScript in greater proportion, making calls to the API
+                                available on the web through Axios, along with tools for manipulating the dom.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__section--proyects__proyect">
+                    <div class="main__section--proyects__proyect__child">
+                        <img src="/assets/notas2.jpg" alt="">
+                        <div>
+                            <a href="/Notas.html">
+                                <h2>Notes app</h2>
+                            </a>
+                            <p>
+                                Notes app created in React, controlling the state of components making changes to these
+                                according to user interactions, saving the data using
+                                as a tool the LocalStorage
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <h1>Skills</h1>
+
+        <section class="main__section--skills" id="skills">
+
+            <img src="/assets/physics.png" alt="Logo de React">
+            <img src="/assets/java-script (1).png" alt="Logo de JavaScript">
+            <img src="/assets/api.png" alt="Logo de API">
+            <img src="/assets/html (1).png" alt="Logo de HTML">
+            <img src="/assets/css-3 (1).png" alt="Logo deCSS">
+            <img src="/assets/bootstrap (1).png" alt="Logo de bootstrap">
+            <img src="/assets/git (1).png" alt="Logo de git">
+            <img src="/assets/linux-logo (1).png" alt="Logo de linux">
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <section class="footer__presentation">
+            <img src="./assets/foto.jfif" alt="Foto de perfil">
+            <div class="footer__presentation__textContainer">
+                <p>
+                    I am a Front-end Developer with 1 years commercial experience. I create successful websites that are
+                    fast, easy to use, and built
+                    with best practices.
+                </p>
+            </div>
+        </section>
+
+        <section class="footer__contact">
+            <div class="footer__contact__linksContainer" id="contact">
+                <a href="https://github.com/Leopoldo983"><img src="/assets/github.png" alt="logo de github"></a>
+                <a href="https://www.linkedin.com/in/gabriel-leonardo-forero-perea-83644121a/"><img
+                        src="/assets/linkedin.png" alt="logo de linkedin"></a>
+            </div>
+        </section>
+
+    </footer>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>

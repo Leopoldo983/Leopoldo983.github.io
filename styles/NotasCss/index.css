@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Source Serif Pro', serif;
+}
+
+
+
+.header__navbar--dektstop{
+    width: 100%;
+    display: flex;
+}
+
+.header__navbar--dektstop img{
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.header__navbar--dektstop div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: end;
+}
+
+.header__navbar--dektstop__itemsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+.header__navbar--dektstop__itemsContainer li{
+    margin-left: 40px;
+    font-size: 1.5em;
+    color: #008ccf;
+}
+
+.header__navbar--dektstop__itemsContainer--3child{
+    margin-right: 40px;
+}
+
+.header__navbar--desplegableContainer{
+    display: none;
+}
+
+
+.header{
+    width: 100%;
+    height: auto;
+}
+
+.header__navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.25em;
+}
+
+.header__navbar--img{
+    width: 3.125em;
+    height: 3.125em;
+}
+
+.navbar--img1{
+    margin: 0.625em 0.625em;
+}
+
+.navbar--img2{
+    margin: 0.625em 0.625em;
+}
+
+.header__navbar--dektstop__itemsContainer{
+    margin-right: 30px;
+}
+
+/*Main*/
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main__seccion{
+    width: 90%;
+}
+
+.main__seccion--descriptionProject{
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.main__seccion--descriptionProject h1{
+    margin-bottom: 10px;
+}
+
+.main__seccion--contextProject{
+    font-size: 1.2em;
+    
+}
+
+.main__seccion--imageProyect{
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.main__seccion--imageProyect img {
+    min-width: 200px;
+}
+
+
+.main__seccion--ButtonWebpsite{
+    display: flex;
+    justify-content: center;
+}
+
+.main__seccion--ButtonWebpsite button{
+    height: 52px;
+    width: 260px;
+    background-color: #008ccf;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.main__seccion--ButtonWebpsite button a{
+    color: white;
+}
+
+.main__seccion--Responsabilities{
+    background-color: #f9f9f9;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.main__seccion--Responsabilities h3{
+    margin-bottom: 10px;
+}
+
+.main__seccion--Responsabilities li{
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+/*Footer*/
+
+.footer{
+    background-color: #222222;
+    color: white;
+}
+
+.footer__presentation{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25em;
+}
+
+.footer__presentation img{
+    width: 8.25em;
+    height: 8.25em;
+    margin: 1.25em;
+}
+
+
+.footer__contact{
+    width: 100%;
+    text-align: center;
+}
+
+.footer__presentation__textContainer p{
+    font-size: 1.2em;
+}
+
+.footer__contact__linksContainer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+}
+.footer__contact__linksContainer img{
+    width: 3.125em;
+    height: 3.125em;
+}
+
+
+/*Hover*/
+
+.header__navbar--dektstop__itemsContainer li:hover{
+    border-bottom: 1px solid #006190;
+    color: #006190;
+}
+
+.main__seccion--ButtonWebpsite button:hover{
+    background-color:#006190 ;
+}
